@@ -1,0 +1,17 @@
+.text-area {
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 20;
+    -fx-text-fill: #ffffff;
+    -fx-display-caret: true;
+}
+
+.text-area .scroll-pane .content, .text-area .content{
+    -fx-background-color: black;
+}
+
+/*    
+    -fx-font-family: "標楷體";
+    -fx-font-family: "KaiTi";
+     -fx-font-family: "Microsoft JhengHei";
+    -fx-font-family: "Courier New";
+*/

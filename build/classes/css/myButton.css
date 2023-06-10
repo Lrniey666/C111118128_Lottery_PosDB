@@ -1,0 +1,21 @@
+
+/*success*/
+.button {
+	-fx-background-color: #5cb85c;
+}
+
+.button {
+	-fx-border-color: #4cae4c;
+	-fx-text-fill: white;
+}
+/*hover state*/
+.button:hover {
+	-fx-border-color: #398439;
+	-fx-background-color: #449d44;
+}
+/*pressed selected*/
+.button:pressed {
+	-fx-background-color: #449d44;
+	-fx-border-color: #398439;
+	-fx-effect: innershadow(gaussian, #398439, 10, 0, 0, 3);
+}
