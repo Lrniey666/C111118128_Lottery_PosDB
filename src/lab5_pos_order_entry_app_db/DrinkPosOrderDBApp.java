@@ -533,6 +533,7 @@ public class DrinkPosOrderDBApp extends Application {
         initializeOrderTable(); //表格要初始化
         root3.getChildren().add(table);
         //塞入白板display
+        display.setMaxHeight(200);
         display.setPrefColumnCount(10);
         display.setStyle("-fx-font-size: 24px;"); 
         root3.getChildren().add(display);
@@ -548,7 +549,7 @@ public class DrinkPosOrderDBApp extends Application {
         //取得 root pane
         HBox root = get_root_pane();
         //塞入布景
-        Scene scene = new Scene(root,1550,900);
+        Scene scene = new Scene(root,1550,800);
         scene.getStylesheets().add("/css/bootstrap3.css");
 String backgroundColor = "#faf325"; // 設置您希望的顏色（這是黃色）
     scene.setFill(Color.web(backgroundColor));
