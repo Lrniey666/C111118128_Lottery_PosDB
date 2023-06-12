@@ -11,6 +11,7 @@ import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
 import javafx.scene.layout.VBox;
+import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 import lab5_pos_order_entry_app_db.DrinkPosOrderDBApp;
 import lab6_pos_product_maintenance_app.DrinkPosProductMaintenance;
@@ -23,7 +24,7 @@ public class DrinkPosTabPaneMenu extends Application {
 
     public void start(Stage stage) {
 
-        VBox order_system = new DrinkPosOrderDBApp().get_root_pane();
+        HBox order_system = new DrinkPosOrderDBApp().get_root_pane();
         VBox product_maintenance = new DrinkPosProductMaintenance().get_root_pane();
 
         //

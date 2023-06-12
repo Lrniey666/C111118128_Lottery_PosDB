@@ -67,6 +67,7 @@ public class DrinkPosOrderDBApp extends Application {
 
     //結帳存檔
     private void checkSave() {
+        System.out.println("結帳套件");
 
         display.setText("結帳中，列印發票...\n");
 
@@ -403,6 +404,7 @@ public class DrinkPosOrderDBApp extends Application {
 
             isCheckedOut = true;
         } else {
+            checkSave();
             btnCheck.setText("結帳");
             display.setText("");
 
@@ -415,8 +417,8 @@ public class DrinkPosOrderDBApp extends Application {
 
             // 清空 table 中的資料
             table.getItems().clear();
-            isCheckedOut = false;
-            display.setText(String.format("結帳成功"));
+            isCheckedOut = false;          
+            display.setText(String.format("結帳成功，列印發票..."));
         }
     }
 });
