@@ -3,15 +3,27 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/lab7_pos_integration_menubar/DrinkPosTabPaneMenu.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/lab6_pos_product_maintenance_app/LotteryPosProductMaintenance.java</file>
             <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/models/DBConnection.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/css/myTextArea.css</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/models/order_detail.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/forReference/MenuAndTabPaneExample.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/models/SaleOrder.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/lab7_pos_integration_menubar/LotteryPosTabPaneMenu.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/css/myVBox_HBox.css</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/models/Product.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/css/bootstrap3.css</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/lab5_pos_order_entry_app_db/LotteryPosOrderDBApp.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/models/SaleOrderDAO.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/css/myButton2.css</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/css/myButton.css</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/models/ReadCategoryProductFromDB.java</file>
             <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/models/OrderDetail.java</file>
             <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/models/Order.java</file>
             <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/models/OrderDAO.java</file>
             <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/models/ProductDAO.java</file>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/lab5_pos_order_entry_app_db/DrinkPosOrderDBApp.java</file>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/lab6_pos_product_maintenance_app/DrinkPosProductMaintenance.java</file>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/models/ReadCategoryProductFromDB.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/lab8_order_analysis/LotteryPosOrderAnalysis.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/C111118128_Lottery_PosDB/src/models/OrderDetailDAO.java</file>
         </group>
     </open-files>
 </project-private>

@@ -28,10 +28,36 @@ public class ReadCategoryProductFromDB {
         return product_dict;
 
     }
+    
+    public static TreeMap<String, SaleOrder> readSaleOrders() {
+        SaleOrderDAO saleOrderDao = new SaleOrderDAO();
+        List<SaleOrder> saleOrders = saleOrderDao.getAllSaleOrders();
+
+        TreeMap<String, SaleOrder> saleOrderDict = new TreeMap<>();
+        for (SaleOrder saleOrder : saleOrders) {
+            saleOrderDict.put(saleOrder.getOrderNum(), saleOrder);
+        }
+
+        return saleOrderDict;
+    }
+
+    public static TreeMap<Integer, OrderDetail> readOrderDetails() {
+        OrderDetailDAO orderDetailDao = new OrderDetailDAO();
+        List<OrderDetail> orderDetails = orderDetailDao.getAllOrderDetails();
+
+        TreeMap<Integer, OrderDetail> orderDetailDict = new TreeMap<>();
+        for (OrderDetail orderDetail : orderDetails) {
+            orderDetailDict.put(orderDetail.getId(), orderDetail);
+        }
+
+        return orderDetailDict;
+    }
 
     public static void main(String[] args) {
 
         System.out.println(ReadCategoryProductFromDB.readProduct());
+         System.out.println(ReadCategoryProductFromDB.readSaleOrders());
+        System.out.println(ReadCategoryProductFromDB.readOrderDetails());
 
     }
 

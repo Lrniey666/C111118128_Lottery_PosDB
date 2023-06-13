@@ -1,0 +1,17 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2023/6/13, 下午 09:22:39
+    Author     : admin
+*/
+
+
+VBox{
+    -fx-background-color: #FFE633;
+}
+
+HBox{
+    -fx-background-color: #FFE633;
+}

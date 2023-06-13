@@ -294,6 +294,37 @@ VBox > .split-menu-button.last > .arrow-button {
 	-fx-effect: innershadow(gaussian, #269abc, 10, 0, 0, 3);
 }
 
+/*info2*/
+
+.button.info2,.split-menu-button.info2,.toggle-button.info2,.menu-button.info2,
+.split-menu-button.info2 > .label, .split-menu-button.info2 > .arrow-button {
+    -fx-background-color: #734172;
+}
+
+.button.info2,.menu-button.info2,.toggle-button.info2,
+.split-menu-button.info2 > .label,.split-menu-button.info2 > .arrow-button {
+    -fx-border-color: #734172;
+    -fx-text-fill: white;
+}
+
+/*hover state*/
+.button.info2:hover,.menu-button.info2:hover,.toggle-button.info2:hover,
+.split-menu-button.info2 > .label:hover, .split-menu-button.info2 > .arrow-button:hover {
+    -fx-border-color: #865282;
+    -fx-background-color: #865282;
+}
+
+/*pressed selected*/
+.button.info2:pressed, .button.info2:selected,
+.menu-button.info2:pressed,.menu-button.info2:selected
+,.toggle-button.info2:pressed,.toggle-button.info2:selected,
+.split-menu-button.info2:pressed > .label, .split-menu-button.info2 > .arrow-button:pressed {
+    -fx-background-color: #996694;
+    -fx-border-color: #996694;
+    -fx-effect: innershadow(gaussian, #996694, 10, 0, 0, 3);
+}
+
+
 /*warning*/
 
 .button.warning,.split-menu-button.warning,.toggle-button.warning,.menu-button.warning,
@@ -949,4 +980,35 @@ VBox > .split-menu-button.last > .arrow-button {
 
 .root {
     -fx-background-color: #FFE633;
+}
+
+
+.tab-pane {
+    -fx-background-color: #FFE633;
+}
+
+.tab-header-background {
+    -fx-background-color: #FFE633;
+}
+
+.label.lb1{
+    -fx-background-color: #008892;  
+    -fx-border-color: #008892;        
+    -fx-border-width: 2px;          
+    /*
+    // 背景顏色
+    // 外框顏色
+    // 外框寬度
+    */
+}
+
+.label.lb2{
+    -fx-background-color: #930500;  
+    -fx-border-color: #930500;        
+    -fx-border-width: 2px;          
+    /*
+    // 背景顏色
+    // 外框顏色
+    // 外框寬度
+    */
 }
