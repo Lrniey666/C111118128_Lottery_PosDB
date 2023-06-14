@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package lab8_order_analysis;
+package lab9_about;
 
 import java.util.TreeMap;
 import javafx.application.Application;
@@ -43,20 +43,30 @@ import javafx.application.Application;
 import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 
-public class LotteryPosOrderAnalysis extends Application {
+public class Project_Author extends Application {
     
-    public HBox get_root_pane(){
-        Label label4 = new Label("尚未開業\n沒訂單提供分析");
-        label4.setPrefSize(450, 300);
+public HBox get_root_pane(){
+        Label label4 = new Label("專案製作者：\n張任沂");
+        label4.setPrefSize(450, 250);
         label4.setAlignment(Pos.CENTER);
         label4.setStyle("-fx-font-weight: bold;");
         label4.setStyle("-fx-font-size:48px;");
         label4.setTextAlignment(TextAlignment.CENTER);
         label4.getStyleClass().setAll("label", "lb3");
         
+        Label label6 = new Label("project maker：\nCHANG JEN I");
+        label6.setPrefSize(450, 250);
+        label6.setAlignment(Pos.CENTER);
+        label6.setStyle("-fx-font-weight: bold;");
+        label6.setStyle("-fx-font-size:48px;");
+        label6.setTextAlignment(TextAlignment.CENTER);
+        label6.getStyleClass().setAll("label", "lb4");
+        
         HBox root=new HBox();
+        root.setPadding(new Insets(10, 10, 10, 10));
         root.setAlignment(Pos.CENTER);
         root.getChildren().add(label4);
+        root.getChildren().add(label6);
         root.getStylesheets().add("/css/bootstrap3.css");      
         return root;    
     }
@@ -77,4 +87,3 @@ public class LotteryPosOrderAnalysis extends Application {
         launch(args);
     }
 }
-

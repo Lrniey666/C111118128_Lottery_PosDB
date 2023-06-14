@@ -19,7 +19,7 @@ public class ProductDAO {
 
         conn = DBConnection.getConnection();
         String query = "select * from product";
-        List<Product> product_list = new ArrayList();
+        List<Product> product_list = new ArrayList<>();
 
         try {
             PreparedStatement ps

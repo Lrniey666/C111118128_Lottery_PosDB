@@ -64,6 +64,7 @@ public class LotteryPosProductMaintenance extends Application {
         btnQueryAll.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
+                display.setText("瀏覽全部商品");
                 //ObservableList    order_list有新增或刪除都會處動table的更新，也就是發生任何改變時都被通知
                 product_list = FXCollections.observableList(productDao.getAllProducts());
                 table.setItems(product_list);
@@ -80,6 +81,7 @@ public class LotteryPosProductMaintenance extends Application {
             @Override
             public void handle(ActionEvent event) {
                 //ObservableList    order_list有新增或刪除都會處動table的更新，也就是發生任何改變時都被通知
+                display.setText("瀏覽2000元之商品");
                 product_list = FXCollections.observableList(productDao.findByCate("2k"));
                 table.setItems(product_list);
                 System.out.println(product_list);
@@ -94,6 +96,7 @@ public class LotteryPosProductMaintenance extends Application {
         btn1k.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent e) {
+                display.setText("瀏覽1000元之商品");
                 product_list = FXCollections.observableList(productDao.findByCate("1k"));
                 //表格內置放的資料來自於product_list，依據置放順序顯示
                 table.setItems(product_list);
@@ -109,6 +112,7 @@ public class LotteryPosProductMaintenance extends Application {
         btn500.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent e) {
+                display.setText("瀏覽500元之商品");
                 product_list = FXCollections.observableList(productDao.findByCate("500"));
                 table.setItems(product_list);
                 System.out.println(product_list);
@@ -123,6 +127,7 @@ public class LotteryPosProductMaintenance extends Application {
         btn200.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent e) {
+                display.setText("瀏覽200元之商品");
                 product_list = FXCollections.observableList(productDao.findByCate("200"));
                 table.setItems(product_list);
                 System.out.println(product_list);
@@ -138,6 +143,7 @@ public class LotteryPosProductMaintenance extends Application {
         btn100.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent e) {
+                display.setText("瀏覽100元之商品");
                 product_list = FXCollections.observableList(productDao.findByCate("100"));
                 table.setItems(product_list);
                 System.out.println(product_list);
@@ -191,6 +197,7 @@ public class LotteryPosProductMaintenance extends Application {
         btnFindById.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent e) {
+                display.setText(String.format("搜尋商品代號為%s的商品",(productIdField.getText())));
                 Product prod = productDao.findById(productIdField.getText());
                 product_list.clear();
                 product_list.add(prod);
@@ -213,6 +220,7 @@ public class LotteryPosProductMaintenance extends Application {
         btnFindByName.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent e) {
+                display.setText(String.format("搜尋商品名稱包含%s的商品",(nameField.getText())));
                 product_list = FXCollections.observableList(productDao.findByNameContaining(nameField.getText()));
                 //table內容須設定為新的product_list, 因為product_list是新的
                 table.setItems(product_list);
@@ -326,7 +334,7 @@ public class LotteryPosProductMaintenance extends Application {
             public void handle(ActionEvent event) {
                 //新增一筆範例
                 display.setText("已新增一筆預設資料");
-                product_list.add(new Product("p-2k-101", "2k", "2000的刮刮樂", 2000, "照片檔名", "描述說明"));
+                product_list.add(new Product("p-2k-666", "2k", "2000的刮刮樂", 2000, "照片檔名", "描述說明"));
                 
             }
         });
@@ -447,7 +455,7 @@ public class LotteryPosProductMaintenance extends Application {
         display.setMaxHeight(200);
         display.setMinHeight(200);
         display.setStyle("-fx-font-size: 30px;");
-        display.setPromptText("空白...");
+        display.setPromptText("功能選擇提示...");
         display.setPrefRowCount(3);
         root2.getChildren().add(display);
         root.getChildren().add(root2);

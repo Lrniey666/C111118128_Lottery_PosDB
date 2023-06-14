@@ -1,0 +1,28 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2023/6/15, 上午 02:09:05
+    Author     : admin
+*/
+
+.menu-bar {
+    -fx-background-color: #FFF8C9;
+}
+
+.menu {
+    -fx-font-size: 30px;
+    -fx-text-fill: #000000;
+}
+
+.menu-item {
+    -fx-font-size: 24px;
+    -fx-text-fill: #000000;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab {
+    -fx-pref-width: 250px; /*設定最小化後的寬度*/
+    -fx-pref-height: 50px; /*設定最小化後的高度*/
+    -fx-font-size: 24px; /* 設定最小化後的文字大小 */
+}

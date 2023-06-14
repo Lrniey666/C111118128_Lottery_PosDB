@@ -31,6 +31,7 @@ public class OrderDetailDAO {
                 orderDetail.setProductName(rset.getString("product_name"));
                 orderDetailList.add(orderDetail);
             }
+            
         } catch (SQLException ex) {
             System.out.println("getAllOrderDetails exception: " + ex.toString());
         }

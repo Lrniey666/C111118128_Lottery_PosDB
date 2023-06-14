@@ -1005,10 +1005,45 @@ VBox > .split-menu-button.last > .arrow-button {
 .label.lb2{
     -fx-background-color: #930500;  
     -fx-border-color: #930500;        
-    -fx-border-width: 2px;          
+    -fx-border-width: 2px;
+    
     /*
     // 背景顏色
     // 外框顏色
     // 外框寬度
+    */
+}
+
+.label.lb3{
+    -fx-background-color: #D9534F;  
+    -fx-border-color: #D9534F;        
+    -fx-border-width: 2px;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    
+    /*
+    // 背景顏色
+    // 外框顏色
+    // 外框寬度
+    // 文字顏色
+    // 弧形外框*2
+    */
+}
+
+.label.lb4{
+    -fx-background-color: #734172;  
+    -fx-border-color: #734172;        
+    -fx-border-width: 2px;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    
+    /*
+    // 背景顏色
+    // 外框顏色
+    // 外框寬度
+    // 文字顏色
+    // 弧形外框*2
     */
 }
